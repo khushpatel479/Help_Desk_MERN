@@ -1,0 +1,1 @@
+export const Lnk  = "http://localhost:3404/hp/"
