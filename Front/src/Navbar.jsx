@@ -16,6 +16,7 @@ function mnp(path)
             <Link to="/" className={`${mnp("/")}`}>Add Token</Link>
             <Link to="/display" className={`${mnp("/display")}`}>Display Tokens</Link>
             <Link to="/counter" className={`${mnp("/counter")}`}>Counters</Link>
+            <Link to="/quize" className={`${mnp("/quize")}`}>Quize</Link>
 
         </nav>
     </div>

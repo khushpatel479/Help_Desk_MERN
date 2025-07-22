@@ -10,6 +10,7 @@ import Thankyou from './Thankyou'
 import Assign_Executive from './Assign_Executive'
 import Counters from './Counters'
 import Resolve_Tokens from './Resolve_Tokens'
+import Quize from './Quize'
 function App() {
 
 const Lay = ({children})=>
@@ -31,6 +32,7 @@ const Lay = ({children})=>
       <Route path='/assign' element={<Lay><Assign_Executive/></Lay>}></Route>
       <Route path='/counter' element={<Lay><Counters/></Lay>}></Route>
       <Route path='/resolve' element={<Lay><Resolve_Tokens/></Lay>}></Route>
+      <Route path='/quize' element={<Lay><Quize/></Lay>}></Route>
 
      </Routes>
      </BrowserRouter>
