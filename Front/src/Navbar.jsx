@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-function Navbar() {
+function Navbar({lpo , text}) {
     const l = useLocation()
 
 function mnp(path)
@@ -19,6 +19,7 @@ function mnp(path)
             <Link to="/quize" className={`${mnp("/quize")}`}>Quize</Link>
 
         </nav>
+        <button className='flex-1/2 hover:bg-amber-400 cursor-pointer text-red-600' onClick={lpo}>{text}</button>
     </div>
     
     </>

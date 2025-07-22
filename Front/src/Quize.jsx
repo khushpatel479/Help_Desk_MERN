@@ -6,6 +6,8 @@ const Quize = () => {
 
 
 
+    
+
 const que = [
   {
     question: "What does HTML stand for?",

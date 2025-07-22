@@ -77,35 +77,42 @@
 // console.log(dup)
 
 
-const que = [
-  {
-    question: "What does HTML stand for?",
-    options: ["Hyper Text Markup Language", "Hot Mail", "How To Make Landing-page", "Hyper Tool Multi Language"],
-    answer: "Hyper Text Markup Language"
-  },
-  {
-    question: "Which language runs in a web browser?",
-    options: ["Java", "C", "Python", "JavaScript"],
-    answer: "JavaScript"
-  },
-  {
-    question: "What is the correct syntax to output in console?",
-    options: ["console.log()", "print()", "echo()", "display()"],
-    answer: "console.log()"
-  },
-  {
-    question: "Which of these is a JavaScript framework?",
-    options: ["React", "Laravel", "Django", "Flask"],
-    answer: "React"
-  },
-  {
-    question: "How do you declare a variable in JavaScript?",
-    options: ["let", "var", "const", "All of the above"],
-    answer: "All of the above"
-  }
-];
-
-
+// const que = [
+//   {
+//     question: "What does HTML stand for?",
+//     options: ["Hyper Text Markup Language", "Hot Mail", "How To Make Landing-page", "Hyper Tool Multi Language"],
+//     answer: "Hyper Text Markup Language"
+//   },
+//   {
+//     question: "Which language runs in a web browser?",
+//     options: ["Java", "C", "Python", "JavaScript"],
+//     answer: "JavaScript"
+//   },
+//   {
+//     question: "What is the correct syntax to output in console?",
+//     options: ["console.log()", "print()", "echo()", "display()"],
+//     answer: "console.log()"
+//   },
+//   {
+//     question: "Which of these is a JavaScript framework?",
+//     options: ["React", "Laravel", "Django", "Flask"],
+//     answer: "React"
+//   },
+//   {
+//     question: "How do you declare a variable in JavaScript?",
+//     options: ["let", "var", "const", "All of the above"],
+//     answer: "All of the above"
+//   }
+// ];
+// const bj = {
+//   question1: "What does HTML stand for?",
+//   options1: ["Hyper Text Markup Language", "Hot Mail", "How To Make Landing-page", "Hyper Tool Multi Language"],
+//   answer1: "Hyper Text Markup Language",
+//   question2: "Which language runs in a web browser?",
+//   options2: ["Java", "C", "Python", "JavaScript"],
+//   answer2: "JavaScript",
+// }
+// console.log(bj.options1)
 // let curr = -1
 
 // let yh=setInterval(() => {
@@ -148,5 +155,15 @@ const que = [
 // else{
 //   console.log("sorry")
 // }
+
+// console.log(typeof(undefined))
+
+
+let arr = [200,0,34,31,30,90]
+let arr2 = [23,43,32,12]
+let ind = arr.indexOf(0)
+arr.splice(ind,1)
+arr.splice(3,0,2)
+console.log(arr)
 
 

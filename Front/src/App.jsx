@@ -12,11 +12,29 @@ import Counters from './Counters'
 import Resolve_Tokens from './Resolve_Tokens'
 import Quize from './Quize'
 function App() {
+const[whole,setwhole] = useState("white")
+const[text,settext] = useState("Dark")
+const[active,setactive] = useState(false)
+const lpo = ()=>
+{
+  if(!active)
+  {
+    settext("Dark")
+    setwhole("white")
+    setactive(true)
+  }
+  else if(active)
+  {
+    setactive(false)
+    setwhole("black")
+    settext("Light")
+  }
+}
 
 const Lay = ({children})=>
 (
   <>
-  <Navbar/>
+  <Navbar text={text} lpo={lpo} />
   {children}
   </>
 )
@@ -24,6 +42,7 @@ const Lay = ({children})=>
 
   return (
     <>
+    <div className={`w-screen h:screen  bg-${whole}`}>
      <BrowserRouter>
      <Routes>
       <Route index element={<Lay><Add_Tokens/></Lay>}></Route>
@@ -36,6 +55,7 @@ const Lay = ({children})=>
 
      </Routes>
      </BrowserRouter>
+     </div>
     </>
   )
 }
