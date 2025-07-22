@@ -105,10 +105,48 @@ const que = [
   }
 ];
 
-que.map((item)=>
-{
-    item.options.map((item)=>
-    {
-        console.log(item)
-    })
-})
+
+// let curr = -1
+
+// let yh=setInterval(() => {
+//   curr=curr+1
+//   console.log(que[curr])
+//   if(curr===que.length-1)
+//   {
+//     clearInterval(yh)
+//   }
+// }, 1000);
+
+
+// let str = "hello khush khush"
+// str.replace("khush","kush")
+
+// console.log(str)
+
+
+// Pelindrome
+
+// let str = "madam"
+// let rev = str.split("").reverse().join("")
+// console.log(rev)
+// if(str==rev)
+// {
+//   console.log("ok")
+// }
+// else{
+//   console.log("not ok")
+// }
+
+
+// let num = 121
+// let str = num.toString()
+// let rev = str.split("").reverse().join("")
+// if(num == str)
+// {
+//   console.log("ok")
+// }
+// else{
+//   console.log("sorry")
+// }
+
+
